@@ -1,0 +1,9 @@
+{
+  "name": "mydsl-mongo-interface",
+  "description": "mydsl-mongo-interface",
+  "keywords": [
+    "go"
+  ],
+  "website": "https://github.com/cuhey3/mydsl_mongo",
+  "repository": "https://github.com/cuhey3/mydsl_mongo"
+}

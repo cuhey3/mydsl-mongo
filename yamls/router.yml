@@ -1,0 +1,14 @@
+main:
+  - $router:
+      do: chi.NewRouter
+
+  - handler:
+    - get
+    - "/hello"
+    - send:
+      - hello
+
+  - do:
+    - http.ListenAndServe
+    - $PORT
+    - $router
